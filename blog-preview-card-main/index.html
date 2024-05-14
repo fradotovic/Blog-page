@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {  font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color:#f3d34c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;    
+    }
+
+    .container{
+      display:grid;
+      height: 600;
+      width: 320px;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 5%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .avatar{
+      border-radius: 5%;
+    }
+
+   .subheading{
+    background-color: #f5d04e;
+    padding: 10px;
+    border-radius: 8%;
+    width: 60px;
+   }
+
+   p{
+    margin-top:0px ;
+    margin-bottom: 0px;
+   }
+
+   .description{
+    color:grey;
+    font-size: 17px;
+   }
+
+
+   h1{
+    font-size: 29px;
+   }
+ 
+   .image-autor{
+    display: flex;
+    align-items: center;
+   }
+
+   .greg{
+    margin-right: 15px;
+   }
+   
+   @media (max-width: 450px) {
+  .container {
+    max-width: 450px;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img  class="avatar" src="design/images/illustration-article.svg" alt="ilustration">
+    <h4 class="subheading">Learning</h4>
+    <p style="font-weight: 550;">Published 21 Dec 2023</p>
+    <h1>HTML & CSS foundations</h1>
+    <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <h4 class="image-autor"><img class="greg" src="/design/images/image-avatar.webp" alt="greg">Greg Hooper</h4>
+  </div>
+
+
+
+
+</body>
+</html>
